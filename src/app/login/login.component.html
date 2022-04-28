@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Application Login</h1>
+                    <h5>Feel Free To Login</h5><hr>
+                </div>
+                <form [formGroup] = "loginForm" (ngSubmit)="logIn()">
+                  <h5 class="text-center">Login as User</h5><hr>
+                    <div class="mb-3">
+                      <label class="form-label">Email ID</label>
+                      <input  formControlNmae = "email" placeholder="Email" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                     
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Password</label>
+                      <input formControlName ="password" placeholder="Password" type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                  </form>
+
+                  <a style="color: blue; margin-top: 10px;" routerLink ="/signup">New User ? Click Here to Signup !</a>
+                  
+                  <form style="padding: 15px;" [formGroup] = "loginForm" (ngSubmit)="logInA()">
+                    <h5 class="text-center">Login as Admin</h5><hr>
+                    <div class="mb-3">
+                      <label class="form-label">Email ID</label>
+                      <input  formControlNmae = "email" placeholder="Email" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                     
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Password</label>
+                      <input formControlName ="password" placeholder="Password" type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>
