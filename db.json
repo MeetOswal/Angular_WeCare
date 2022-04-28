@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "name": "test",
+      "email": "test@gmail.com",
+      "mobile": "1234567890",
+      "address": "Pune",
+      "services": "abc"
+    },
+    {
+      "id": 5,
+      "name": "Meet",
+      "email": "osw.meet00@gmail.com",
+      "mobile": "8529143461",
+      "address": "Pune",
+      "services": "Computer"
+    },
+    {
+      "id": 6,
+      "name": "Shilpa",
+      "email": "oswal.shilpa00@gmail.com",
+      "mobile": "9834380173",
+      "address": "Pune",
+      "services": "Interior Design"
+    },
+    {
+      "id": 7,
+      "name": "kavya",
+      "email": "kai.com",
+      "mobile": "456789123",
+      "address": "Hell",
+      "services": "engineer"
+    }
+  ],
+  "signup": [
+    {
+      "name": "Meet",
+      "email": "meet@1234",
+      "mobile": "858585",
+      "passowrd": "",
+      "id": 1
+    },
+    {
+      "name": "dfscs",
+      "email": "sfdafcdaff",
+      "mobile": "15614631",
+      "password": "156166551",
+      "id": 2
+    },
+    {
+      "name": "Meet",
+      "email": "meet@1234",
+      "mobile": "123456",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "Admin",
+      "email": "Admin",
+      "mobile": "Admin",
+      "password": "admin",
+      "id": 4
+    },
+    {
+      "name": "kavya",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "kavya",
+      "email": "oswal.kavya99@gmail.com",
+      "mobile": "9881445457",
+      "password": "556688",
+      "id": 6
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
